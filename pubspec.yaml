@@ -1,0 +1,37 @@
+name: marbylink
+version: 1.0.0+1
+description: 家庭纯P2P局域网通讯软件
+environment:
+  sdk: "^3.1.4"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  # 网络相关
+  multicast_dns: ^0.3.2
+  # 加密相关
+  cryptography: ^2.7.0
+  # 本地存储
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  # 二维码
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^3.0.0
+  # WebRTC
+  flutter_webrtc: ^0.9.36
+  # 状态管理
+  provider: ^6.1.1
+  # 日志
+  logger: ^2.0.2+1
+  # 文件选择
+  file_picker: ^5.5.0
+  # 密码哈希
+  crypto: ^3.0.3
+  # 本地存储
+  shared_preferences: ^2.2.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+flutter:
+  uses-material-design: true
